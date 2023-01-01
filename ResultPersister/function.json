@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "schedule": "%CRON_TIMER_VALUE%",
+      "name": "testResultPersisterTimeTrigger",
+      "type": "timerTrigger",
+      "direction": "in"
+    }
+  ],
+  "scriptFile": "../dist/resultsPersister/index.js"
+}
